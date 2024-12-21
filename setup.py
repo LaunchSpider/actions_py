@@ -21,7 +21,10 @@ setup(
     entry_points={
         'console_scripts': [
             "count_until_server = actions_py.count_until_server:main",
-            "count_until_client = actions_py.count_until_client:main"
+            "count_until_client = actions_py.count_until_client:main",
+            "position_velocity_action_server = actions_py.position_velocity_action_server:main",
+            "position_velocity_action_client = actions_py.position_velocity_action_client:main",
+            "position_velocity_action_client_2 = actions_py.position_velocity_action_client_2:main"
         ],
     },
 )
